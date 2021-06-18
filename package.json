@@ -9,17 +9,20 @@
     "*.json": [
       "prettier --write"
     ],
-    "*.{js,ts}": [
+    "packages/**/*.{js,ts}": [
       "prettier --write",
-      "eslint"
+      "eslint --fix"
     ]
   },
   "devDependencies": {
+    "@tizee/eslint-config": "./packages/eslint-config",
+    "@tizee/prettier-config": "./packages/prettier-config",
     "eslint": "^7.28.0",
     "husky": "^6.0.0",
     "lerna": "^4.0.0",
     "lint-staged": "^11.0.0",
-    "prettier": "^2.3.1"
+    "prettier": "^2.3.1",
+    "typescript": "^4.3.4"
   },
   "npmClient": "yarn"
 }

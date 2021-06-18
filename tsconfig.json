@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "inlineSourceMap": false,
+    "noImplicitAny": true,
+    "lib": ["ESNext"],
+    "module": "esnext",
+    "target": "esnext",
+    "jsx": "react",
+    "allowJs": true,
+    "noEmit": true,
+    "alwaysStrict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
