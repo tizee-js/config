@@ -1,0 +1,26 @@
+{
+  "name": "@tizee/prettier-config",
+  "version": "0.0.1",
+  "description": "prettier config for my personal project.",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "tizee <33030965+tizee@users.noreply.github.com>",
+  "homepage": "https://github.com/tizee-js/config",
+  "license": "MIT",
+  "main": "prettierrc.json",
+  "files": [
+    "prettierrc.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tizee-js/config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tizee-js/config/issues"
+  }
+}
